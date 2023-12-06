@@ -74,7 +74,7 @@
     transition: 0.3s;
   }
 
-  .nav__list {
+  /* .nav__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -95,7 +95,7 @@
 
   .nav__close:hover {
     color: var(--title-color-dark);
-  }
+  } */
 
   .nav__icon,
   .nav__close,
