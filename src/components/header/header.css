@@ -42,16 +42,16 @@
   display: none;
 }
 
-/* Active link */
+/*----------Active link--------------*/
 
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
 }
 
-/*breakpoints*/
+/*-------------Breakpoints----------------*/
 
-/*for medium devices*/
+/*--------------For medium devices----------------*/
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
@@ -74,7 +74,7 @@
     transition: 0.3s;
   }
 
-  /*show menu*/
+  /*------------Show menu---------------*/
 
   .show-menu {
     bottom: 0;
@@ -115,7 +115,7 @@
   }
 }
 
-/*for small devices*/
+/*---------------For small devices--------------*/
 @media screen and (max-width: 350px) {
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
