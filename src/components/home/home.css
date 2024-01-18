@@ -44,7 +44,7 @@
 }
 
 .home__subtitle::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 70px;
   height: 1px;
@@ -112,7 +112,7 @@
 
 .home__scroll-arrow {
   font-size: 1.25rem;
-  color: var(--title-color)
+  color: var(--title-color);
 }
 
 /*-------------Breakpoints--------------*/
@@ -181,10 +181,16 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-}
-
 /*---------------For small devices-----------------*/
 @media screen and (max-width: 350px) {
-  
+  .home__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .home__hand {
+    width: 22px;
+    height: 22px;
+  }
+
 }
